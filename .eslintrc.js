@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     browser: true,
+    'jest/globals': true,
     es2021: true
   },
   extends: [
@@ -11,5 +12,6 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    quotes: ['error', 'single']
   }
 }
