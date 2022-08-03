@@ -33,8 +33,6 @@
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             if (input.value) {
-              
-
             const finalText = `${username}: ${input.value}`
                 socket.emit('chat message', finalText);
                 input.value = '';
@@ -42,6 +40,8 @@
             socket.emit("username", input.value);
 
         });
+
+        
 
         socket.on('chat message', function(msg) {
     let item = document.createElement('li');
