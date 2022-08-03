@@ -41,7 +41,13 @@
 
         });
 
-        
+      // socket.emit("chat message", `${username} is left!`);     
+
+      socket.on('disconnect', () => {
+        console.log("disconnected");
+      })
+      
+
 
         socket.on('chat message', function(msg) {
     let item = document.createElement('li');

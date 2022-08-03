@@ -22,13 +22,10 @@ io.on('connection', (socket) => {
       });
 });
 
-io.on('connection', (socket) => {
-    socket.broadcast.emit('hello!');
-})
+
 
 server.listen(3000, () => {
     console.log('listening on *:3000');
   });
 
 
-// module.exports = app
