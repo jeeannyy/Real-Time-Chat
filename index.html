@@ -27,14 +27,20 @@
         let username = prompt('type your username');
         let form = document.getElementById('form');
         let input = document.getElementById('input');
+        
+        socket.emit("chat message", `${username} is joined!`);     
 
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             if (input.value) {
+              
+
             const finalText = `${username}: ${input.value}`
                 socket.emit('chat message', finalText);
                 input.value = '';
             }
+            socket.emit("username", input.value);
+
         });
 
         socket.on('chat message', function(msg) {
