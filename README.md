@@ -1,7 +1,6 @@
 # Real-Time-Chat
 
-Half day sprint to make a chat app that multiple people join and chat in real time. We used [socket.io] to send live data between a node http servers and a client.
-Based on our user stories and kanban board tasks, we practiced Agile method and git version control.
+Very simple chat app that multiple people can join and chat in real time. We used [socket.io] to send live data between a node http servers and a client.
 
 # Get Started
 
