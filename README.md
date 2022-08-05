@@ -19,4 +19,5 @@ node socket.js
 3. And if you point your browser to http://localhost:3000, you should see the following:
 
 (multiple pages for more than 2 people)
+
 ![Screenshot 2022-08-05 at 11 07 43 pm](https://user-images.githubusercontent.com/61347571/183217746-2748b716-9428-4381-b712-191e3435c478.png)
