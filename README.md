@@ -5,7 +5,7 @@ Very simple chat app that multiple people can join and chat in real time. We use
 # Get Started
 
 
-1.Clone this repository and run:
+1. Clone this repository and run:
 ```
 node socket.js
 ```
