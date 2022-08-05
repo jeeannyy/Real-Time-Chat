@@ -1,6 +1,6 @@
 # Messanger-app
 
-One day sprint to make a messenger app that multiple people join and chat in real time. We used [socket.io] to send live data between a node http servers and a client.
+Half day sprint to make a messenger app that multiple people join and chat in real time. We used [socket.io] to send live data between a node http servers and a client.
 Based on our user stories and kanban board tasks, we practiced Agile method and git version control.
 
 # Get Started
