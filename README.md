@@ -5,17 +5,17 @@ Very simple chat app that multiple people can join and chat in real time. We use
 # Get Started
 
 
-1. Clone this repository and run:
+1.Clone this repository and run:
 ```
 node socket.js
 ```
 
-2. If you run node socket.js, you should see the following:
+2.If you run node socket.js, you should see the following:
 
 ![Screenshot 2022-08-05 at 11 03 09 pm](https://user-images.githubusercontent.com/61347571/183217383-879fd69c-ced9-411d-bd60-85b2076e48e5.png)
 
 
-3. And if you point your browser to http://localhost:3000, you should see the following:
+3.And if you point your browser to http://localhost:3000, you should see the following:
 
 (Use multiple pages for more than 2 people)
 
